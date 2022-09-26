@@ -1,0 +1,88 @@
+body{
+    background-color: #04177B;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+.back-text-0{
+    animation: fadeIn ease 3s;
+    position: absolute;
+    width: 376px;
+    height: 643px;
+    left: -40px;
+    top: -90px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 320px;
+    line-height: 183.3%;
+    /* or 587px */
+
+    color: rgba(180, 180, 180, 0.22);
+}
+
+.intro-block{
+    padding-left:200px;
+    padding-right:200px;
+
+    animation: fadeIn ease 3s;
+    position: absolute;
+    width: 560px;
+    height: 466px;
+    left: 280px;
+    top: 390px;
+
+    border-color: antiquewhite;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.self-pic-stage{
+    animation: fadeIn ease 3s;
+    position: absolute;
+    left: 1150px;
+    top: -200px;
+    width: 700px;
+    height: auto;
+}
+#introblock-one{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 183.3%;
+}
+
+.introblock-two{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 183.3%;
+}
+
+.introblock-three{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 125.8%;
+    /* or 20px */
+}
+
+.top-navbar{
+    float: right;
+    padding:5px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 183.3%;
+    border-bottom:4px;
+    border-color: white;
+}
+.navbar-links{
+    text-decoration: none;
+    padding-right:30px;
+    color: white;
+}
